@@ -1,0 +1,21 @@
+.collectors {
+    background-image: radial-gradient(ellipse at center, #6d242b 0%, #000000 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .collectors-title {
+    color: #df0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .selected {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #df0000;
+  }
+  

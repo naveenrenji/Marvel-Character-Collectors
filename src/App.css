@@ -1,0 +1,67 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f0f0f0;
+  }
+  
+  .App {
+	text-align: center;
+	/* max-width: 1200px; */
+	margin: 0 auto;
+  }
+  
+  .App-header {
+	background-color: #C20202;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .App-title {
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+  }
+  
+  nav {
+	display: flex;
+  }
+  
+  .navlink {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	padding: 0.5rem 1rem;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  }
+  
+  .navlink:hover {
+	background-color: white;
+	color: #C20202;
+  }
+  
+  .App-body {
+	padding: 2rem;
+  }
+  
+  .showlink {
+	text-decoration: none;
+	color: #1D3A9A;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	padding: 0.5rem 1rem;
+	border: 2px solid #1D3A9A;
+	border-radius: 5px;
+	transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  }
+  
+  .showlink:hover {
+	background-color: #1D3A9A;
+	color: white;
+  }
+  
