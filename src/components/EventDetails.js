@@ -253,7 +253,7 @@ const EventDetails = () => {
       }
     };
     fetchEvent();
-  }, [id, hash, ts]);
+  }, [id]);
   
 
   if (loading) {

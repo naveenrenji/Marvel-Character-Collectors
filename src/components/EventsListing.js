@@ -259,7 +259,7 @@ const EventsListing = () => {
     if (searchTerm.trim().length > 0) {
       fetchData();
     }
-  }, [searchTerm, hash, ts]);
+  }, [searchTerm]);
 
   // For pagination
   useEffect(() => {
@@ -322,7 +322,7 @@ const EventsListing = () => {
         fetchEvents();
       }
     }
-  }, [urlPage, searchTerm, hash, ts]);
+  }, [urlPage, searchTerm]);
 
   if (searchTerm) {
     return (
